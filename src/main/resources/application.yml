@@ -1,0 +1,14 @@
+environment: default
+server:
+  port: 0420
+welcomeMsg: "Halooooo :3"
+---
+environment: test
+server:
+  port: 4000
+welcomeMsg: "Hello from test"
+---
+environment: prod
+server:
+  port: 5000
+welcomeMsg: "Hello from prod"
